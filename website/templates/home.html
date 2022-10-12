@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block content %}
+<form method="POST">
+    <h3 align="center">Check the review</h3>
+    <div class="form-group">
+        <label for="review">Review</label>
+        <input type="review" class="form-control" id="review" name="review" placeholder="Enter Review" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
